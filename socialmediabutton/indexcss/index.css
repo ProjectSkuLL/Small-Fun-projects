@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Dancing+Script:wght@700&family=Fredoka&family=IBM+Plex+Sans&family=Inter:wght@300&family=Josefin+Sans:wght@400;600&family=Lora:wght@500&family=Montserrat:wght@300&family=Oleo+Script+Swash+Caps&family=Righteous&family=Roboto:wght@100&family=Secular+One&family=Source+Serif+Pro:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(145deg, rgb(14, 14, 241),navy,rgb(10, 243, 243));
+}
+.container {
+    /* border: 1px solid white; */
+    height: 50px;
+    width: 160px;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+button {
+    cursor: pointer;
+    position: absolute;
+    transition: .5s;
+}
+button a {
+    color: black;
+}
+.main-btn {
+    text-align: center;
+    height: 50px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: white;
+    border: none;
+    z-index: 4;
+}
+.main-btn:hover {
+    background-color: rgb(238, 75, 107);
+    color: white;
+}
+.fb-btn {
+    text-align: center;
+    height: 45px;
+    width: 47px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: white;
+    border: none;
+    z-index: 3;
+}
+.fb-btn:hover {
+    background-color: #4267B2;
+    color: white;
+}
+.insta-btn {
+    text-align: center;
+    height: 45px;
+    width: 47px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: white;
+    border: none;
+    z-index: 2;
+}
+.insta-btn:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+}
+.twitter-btn {
+    text-align: center;
+    height: 45px;
+    width: 47px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: white;
+    border: none;
+    z-index: 1;
+}
+.twitter-btn:hover {
+    background-color: #00acee;
+    color: white;
+}
+
+
+.container:hover .fb-btn{
+    transform: translate(170px,0px);
+}
+.container:hover .insta-btn{
+    transform: translate(220px,0px);
+}
+.container:hover .twitter-btn{
+    transform: translate(270px,0px);
+}
