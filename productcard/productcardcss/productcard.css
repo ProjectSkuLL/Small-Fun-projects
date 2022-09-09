@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Dancing+Script:wght@700&family=Fredoka&family=IBM+Plex+Sans&family=Inter:wght@300&family=Josefin+Sans:wght@400;600&family=Lora:wght@500&family=Montserrat:wght@300&family=Oleo+Script+Swash+Caps&family=Righteous&family=Roboto:wght@100&family=Secular+One&family=Source+Serif+Pro:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(115deg, blue, cyan);
+}
+
+.container {
+    /* border: 1px solid white; */
+    height: 50vh;
+    width: 25vw;
+    position: relative;
+    margin: 0 auto;
+    top: 25%;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px black;;
+}
+
+.card {
+    height: 50vh;
+    width: 25vw;
+    /* background-color: aqua; */
+    border-radius: 25px;
+    display: flex;
+}
+.logitech-brand {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 25px;
+    background-image: linear-gradient(170deg, black,rgb(10, 10, 10),black);
+    z-index: 10;
+}
+.logitech-brand h2 {
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 7rem;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 30%;
+    left: -45%;
+
+}
+.logitech-brand span {
+    color: #2196F3;
+}
+
+.clip {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 25px;
+    z-index: 20;
+    background-color: #2196F3;
+    clip-path: circle(200px at 80% 10%);
+    transition: .5s;
+}
+.container:hover .clip {
+    clip-path: circle(250px at 75% 12%);
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 25px;
+    z-index: 30;
+}
+.image img {
+    height: 70%;
+    width: 80%;
+    transform: translate(30%, -10%);
+    filter: drop-shadow(0 0 0.6rem rgb(0, 0, 0));
+    transition: .5s;
+}
+.container:hover .image img {
+    transform: translate(20%, -10%);
+}
+
+.details {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* border: 1px solid white; */
+    border-radius: 25px;
+    z-index: 40;
+}
+.prod-details {
+    transition: .5s;
+    height: 48%;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    /* border: 1px solid white; */
+    border-radius: 25px;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    box-shadow: inset 0px 0px 90px -10px rgb(15, 15, 15);
+}
+.prod-details h2 {
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 2rem;
+}
+.prod-details p {
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+    font-size: .8rem;
+    text-align: center;
+}
+.prod-details span {
+    color: #2196F3 ;
+}
+.price {
+    margin-top: 10px;
+    height: 35px;
+    width: 130px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: .5s;
+}
+.price:hover {
+    background-color: #2196F3;
+    color: white;
+}
+.container:hover .prod-details {
+    top: 47%;
+    transition: .8s;
+}
