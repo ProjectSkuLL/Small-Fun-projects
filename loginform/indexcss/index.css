@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Dancing+Script:wght@700&family=Fredoka&family=IBM+Plex+Sans&family=Inter:wght@300&family=Josefin+Sans:wght@400;600&family=Lora:wght@500&family=Montserrat:wght@300&family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300&family=Righteous&family=Roboto:wght@100&family=Secular+One&family=Source+Serif+Pro:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(115deg, rgb(243, 217, 217), rgb(224, 218, 218), rgb(171, 215, 245));
+}
+.container {
+    height: 60%;
+    width: 50%;
+    position: relative;
+    top: 20%;
+    left: 25%;
+    box-shadow: 0 10px 30px black;
+    display: flex;
+}
+.leftside-cont {
+    height: 100%;
+    width: 55%;
+    border: 1px solid black;
+    background-size: 200% 200%;
+    background: url('https://wallpaperaccess.com/full/7469.jpg');
+    animation: bgimgmove infinite 35s alternate .5s;
+}
+@keyframes bgimgmove {
+    20% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+.colorlayer {
+    height: 100%;
+    width: 100%;
+    background-color: #023042;
+    opacity: .9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 70; */
+}
+.colorlayer h2 {
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 3.6rem;
+    opacity: 1;
+    /* text-align: center; */
+}
+.colorlayer p {
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: .9rem;
+    opacity: 1;
+}
+
+/* right side ---------------*/
+.rightside-cont {
+    height: 100%;
+    width: 45%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(145deg, rgb(183, 183, 255),silver, rgb(139, 139, 139));
+}
+.rightside-cont form {
+    height: 35%;
+    width: 90%;
+    top: 10%;
+    line-height: 3.5rem;
+    /* border: 1px solid red; */
+}
+
+.rightside-cont form label {
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.rightside-cont form input:focus {
+    outline: none;
+}
+.rightside-cont form input[type="text"],.rightside-cont form input[type="password"] {
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 5%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid crimson;
+    transition: .5s;
+}
+.rightside-cont form input[type="text"]:hover,.rightside-cont form input[type="password"]:hover {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid blue;;
+}
+.submitbtn {
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 120px;
+    border: none;
+    margin-top: 10%;
+    margin-left: 35%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: .5s;
+}
+.submitbtn:hover {
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 5px 20px black;
+    background-image: linear-gradient(115deg, rgb(62, 130, 255), rgb(3, 51, 182));
+}
+
+.social {
+    /* border: 1px solid black; */
+    height: 6vh;
+    margin-top: 5%;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.socialbtn {
+    transition: .5s;
+    height: 40px;
+    width: 40px;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.socialbtn:nth-child(1):hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+    box-shadow: 0 5px 10px black;
+}
+.socialbtn:nth-child(2):hover {
+    background-color: #4267B2;
+    color: white;
+    box-shadow: 0 5px 10px black;
+}
+.socialbtn:nth-child(3):hover {
+    background-color: #00acee;
+    color: white;
+    box-shadow: 0 5px 10px black;
+}
+
+.terms {
+    /* border: 1px solid black; */
+    height: 3vh;
+    position: relative;
+    margin-top: 5%;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: .9rem;
+    font-weight: 600;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+.terms a {
+    color: grey;
+}
+
+.navigation {
+    /* border: 1px solid black; */
+    height: 3vh;
+    /* margin-top: 2%; */
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: .9rem;
+    font-weight: 600;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+.navigation a {
+    color: grey;
+}
+.terms a:hover,.navigation a:hover {
+    color: rgb(78, 78, 78);
+}
