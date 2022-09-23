@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Dancing+Script:wght@700&family=Fredoka&family=IBM+Plex+Sans&family=Inter:wght@300&family=Josefin+Sans:wght@400;600&family=Lora:wght@500&family=Montserrat:wght@300&family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300&family=Righteous&family=Roboto:wght@100&family=Secular+One&family=Source+Serif+Pro:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(120deg, rgb(0, 0, 0),black,black);
+    -moz-background-image: linear-gradient(120deg, black,black,black);
+    -o-background-image: linear-gradient(120deg, black,black,black);
+    -webkit-background-image: linear-gradient(120deg, black,black,black);
+    overflow: hidden;
+}
+
+.container {
+    height: 60%;
+    width: 35%;
+    /* border: 1px solid white; */
+    position: relative;
+    margin: 0 auto;
+    top: 15%;
+    display: flex;
+}
+
+.imagecont {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    /* border: 1px solid white; */
+}
+.imagecont img {
+    height: 100%;
+    width: 100%;
+}
+/* ---------------------------------------- */
+.locations {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 20;
+    /* border: 1px solid white; */
+}
+.india {
+    height: 22%;
+    width: 15%;
+    transform: translate(165%,140%);
+    cursor: pointer;
+    transition: .5s;
+}
+.verticalline {
+    height: 70%;
+    width: 1px;
+    border-left: 1px solid white;
+    position: relative;
+    left: 100%;
+    top: -20%;
+    transform: rotate(90deg);
+    transition: .5s;
+    display: none;
+}
+.dot {
+    height: 8.5%;
+    width: 10.5%;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 141.47%;
+    top: -60%;
+    transition: .5s;  
+    display: none;
+}
+.india:hover {
+    border: 1px solid white;
+}
+.india:hover .verticalline, .india:hover .dot {
+    display: block;
+}
+/* -------------------- */
+.infocont {
+    height: 5%;
+    width: 5%;
+    /* height: 40%;
+    width: 80%; */
+    border: 1px solid white;
+    position: relative;
+    /* left: 30%;
+    top: -47%; */
+    transition: .5s;
+    visibility: hidden;
+}
+.india:hover .infocont {
+    visibility: visible;
+    height: 240%;
+    width: 540%;
+    transform: translate(25%,-120%);
+}
+
+
+.cont1 {
+    transition: .5s;
+    padding: 5px;
+    height: 60%;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flagimg {
+    height: 50%;
+    width: 25%;
+    border-radius: 2px;
+    transition: .5s;
+    margin-top: 2%;
+}
+.flagimg img {
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+    border-radius: 2px;
+}
+
+.aboutcountry {
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid white; */
+    font-family: 'Open Sans', sans-serif;
+    transition: .5s;
+    padding: 5px;
+    transition: .5s;
+}
+.aboutcountry h2 {
+    color: white;
+    visibility: hidden;
+}
+.aboutcountry p {
+    color: white;
+    font-size: .8rem;
+    visibility: hidden;
+}
+.infocont:hover .aboutcountry h2, .infocont:hover .aboutcountry p, .infocont:hover .learn-more  {
+    visibility: visible;
+}
+/* .india:hover .aboutcountry h2, .india:hover .aboutcountry p, .india:hover .learn-more  {
+    visibility: visible;
+} */
+
+
+.learn-more {
+    height: 25%;
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 68%;
+    transition: .5s;
+    border-radius: 2px;
+    visibility: hidden;
+}
+.learn-more:hover {
+    background-color: rgba(48, 48, 48, 0.4);
+}
+
+
+.cont2 {
+    transition: .5s;
+    padding: 5px;
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+.country-imgs {
+    height: 60%;
+    width: 18%;
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .5s;
+}
+.country-imgs img {
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;  
+}
+.country-imgs:hover {
+    transform: translateY(40%);
+    height: 250%;
+    width: 250%;
+}
+/* ---------------------------------------------- */
