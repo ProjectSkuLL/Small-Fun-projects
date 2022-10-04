@@ -1,0 +1,41 @@
+
+
+@media screen and (max-width: 1600px){
+    body{
+        background-image: linear-gradient(120deg, rgb(231, 54, 89),rgb(240, 78, 78),rgb(196, 13, 50));
+        transition: .5s;
+    }
+    .card-container {
+        height: 350px;
+        width: 300px;
+    }
+    .card-container:hover {
+        box-shadow: 0 5px 15px rgb(255, 123, 152); 
+    }
+    .wrapper h2 {
+        font-size: 2rem;
+    }
+    .wrapper p {
+        font-size: .8rem;
+    }
+    .getnow {
+        height: 8%;
+        width: 27%;
+        border-radius: 2px;
+        cursor: pointer;
+        border: none;
+        text-align: center;
+        font-family: var(--buttonfontfamily);
+        font-weight: 600;
+        margin-top: 7%;
+        transition: .5s;
+        color: rgb(0, 0, 0);
+    }    
+    .getnow:hover {
+        background-image: linear-gradient(120deg, rgb(231, 117, 24),rgb(236, 44, 44),rgb(240, 21, 21));
+        color: rgb(255, 255, 255);
+        box-shadow: 0 2px 10px rgb(255, 56, 56);
+    }
+    
+    
+}
