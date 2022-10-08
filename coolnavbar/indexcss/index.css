@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Dancing+Script:wght@700&family=Fredoka&family=IBM+Plex+Sans&family=Inter:wght@300&family=Josefin+Sans:wght@400;600&family=Lora:wght@500&family=Montserrat:wght@300&family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300&family=Righteous&family=Roboto:wght@100&family=Secular+One&family=Source+Serif+Pro:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --btntextfont: 'Roboto', sans-serif;;
+    --normaltextfont: 'Open Sans', sans-serif; ;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    /* background-image: linear-gradient(120deg,rgb(250, 181, 53),rgb(245, 245, 81),rgb(228, 65, 98)); */
+    background-image: linear-gradient(120deg,rgb(2, 2, 2),rgb(3, 3, 3),rgb(12, 12, 12));
+    background-image: -moz-linear-gradient();
+    background-image: -o-linear-gradient();
+    background-image: -webkit-linear-gradient();
+    background: url('/bgimgs/annie-spratt-6egdNN_3k3I-unsplash.jpg')no-repeat;
+}
+
+.navbar{
+    border: 1px solid rgb(48, 48, 48);
+    width: 30%;
+    height: 60px;
+    position: absolute;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    border-radius: 12px;
+    margin-left: 35%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    transition: .5s;
+    z-index: 100;
+}
+.navbar:hover {
+    border: none;
+    box-shadow: inset 0px 0px 10px 0px rgb(77, 77, 77);
+}
+.navbar li {
+    list-style: none;
+}
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--normaltextfont);
+    font-weight: 600;
+    transition: .5s;
+    font-size: 1rem;
+}
+.navbar li a:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: rgb(253, 255, 117);
+}
+
+.signup {
+    height: 40px;
+    width: 120px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-family: var(--btntextfont);
+    font-weight: 600;
+    color: white;
+    transition: .5s;
+    background-color: rgb(36, 36, 36);
+}
+.signup:hover{
+    color: black;
+    background-color: yellow;
+    box-shadow: 0 2px 5px yellow;
+}
+.click-me1 {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    z-index: 400;
+    margin-left: 88%;
+    margin-top: -50px;
+    /* visibility: hidden; */
+    /* border: 1px solid white; */
+    border-radius: 20px;
+    background: url('/588a64f5d06f6719692a2d13.png')center;
+}
+.click-me2 {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    z-index: 300;
+    margin-left: 88%;
+    margin-top: -50px;
+    /* visibility: hidden; */
+    /* border: 1px solid white; */
+    border-radius: 20px;
+    background: url('/kisspng-portable-network-graphics-scalable-vector-graphics-5ca6915503e1b0.7267464215544200530159.jpg')center;
+}

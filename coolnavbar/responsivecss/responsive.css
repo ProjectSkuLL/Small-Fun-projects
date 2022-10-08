@@ -1,0 +1,184 @@
+body {
+    overflow: hidden;
+}
+@media screen and (max-width:540px){
+    body {
+        background: url('/bgimgs/tiraya-adam-FNRIC8aaF4o-unsplash.jpg')no-repeat;
+    }
+    .navbar{
+        width: 60%;
+        height: 50vh;
+        position: relative;
+        float:right;
+        margin-right: -60%;
+        /* align-items: center; */
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        flex-direction: column;
+        transition: .5s;
+        z-index: 100;
+    }
+    .navbar:hover {
+        border: none;
+        box-shadow: inset 0px 0px 10px 0px rgb(77, 77, 77);
+        background: transparent;
+        margin-right: 0;
+    }
+    .navbar li a {
+        margin-left: -100px;
+    }
+    .click-me1 {
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        z-index: 400;
+        margin-left: 90%;
+        margin-top: 10px;
+        visibility: visible;
+        cursor: pointer;
+        border: none;
+        /* border: 1px solid white; */
+        border-radius: 20px;
+        background: url('/588a64f5d06f6719692a2d13.png')center;
+        filter: invert(100);
+    }
+    .click-me2 {
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        z-index: 300;
+        margin-left: 90%;
+        margin-top: 10px;
+        visibility: hidden;
+        cursor: pointer;
+        /* border: 1px solid white; */
+        border-radius: 20px;
+        background: url('/kisspng-portable-network-graphics-scalable-vector-graphics-5ca6915503e1b0.7267464215544200530159.jpg')center;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    body {
+        background: url('/bgimgs/kent-tupas-WaUcTYPfiCU-unsplash.jpg')no-repeat;
+    }
+    .navbar{
+        width: 45%;
+        height: 5vh;
+        position: absolute;
+        /* align-items: center; */
+        margin-left: 0%;
+        border-radius: 12px;
+        flex-direction: row;
+        transition: .5s;
+        z-index: 100;
+    }
+    .navbar:hover {
+        border: none;
+        box-shadow: inset 0px 0px 10px 0px rgb(77, 77, 77);
+        background: transparent;
+        margin-right: 0;
+    }
+    .navbar li a {
+        font-size: .6rem;
+    }
+    
+    .signup {
+        height: 30px;
+        width: 100px;
+        font-size: .6rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background: url('/bgimgs/kent-tupas-WaUcTYPfiCU-unsplash.jpg') no-repeat;
+    }
+    .navbar{
+        width: 35%;
+        height: 5vh;
+        position: absolute;
+        align-items: center;
+        margin-left: 27%;
+        border-radius: 12px;
+        flex-direction: row;
+        transition: .5s;
+        z-index: 100;
+    }
+    .navbar:hover {
+        border: none;
+        box-shadow: inset 0px 0px 10px 0px rgb(77, 77, 77);
+        background: transparent;
+        margin-right: 0;
+    }
+    .navbar li a {
+        font-size: .6rem;
+    }
+
+    .signup {
+        height: 20px;
+        width: 100px;
+        font-size: .6rem;
+    }
+}
+@media screen and (min-width: 1300px) {
+    body {
+        background: url('/bgimgs/kent-tupas-WaUcTYPfiCU-unsplash.jpg')no-repeat;
+    }
+    .navbar{
+        width: 25%;
+        height: 5vh;
+        position: absolute;
+        align-items: center;
+        margin-left: 37%;
+        border-radius: 12px;
+        flex-direction: row;
+        transition: .5s;
+        z-index: 100;
+    }
+    .navbar:hover {
+        border: none;
+        box-shadow: inset 0px 0px 10px 0px rgb(77, 77, 77);
+        background: transparent;
+        margin-right: 0;
+    }
+    .navbar li a {
+        font-size: .6rem;
+    }
+
+    .signup {
+        height: 20px;
+        width: 90px;
+        font-size: .6rem;
+    }
+}
+@media screen and (min-width: 1600px) {
+    body {
+        background: url('/bgimgs/annie-spratt-6egdNN_3k3I-unsplash.jpg')no-repeat;
+    }
+    .navbar{
+        width: 30%;
+        height: 7vh;
+        position: absolute;
+        align-items: center;
+        margin-left: 68%;
+        border-radius: 12px;
+        flex-direction: row;
+        transition: .5s;
+        z-index: 100;
+    }
+    .navbar:hover {
+        border: none;
+        box-shadow: inset 0px 0px 10px 0px rgb(77, 77, 77);
+        background: transparent;
+        margin-right: 0;
+    }
+    .navbar li a {
+        font-size: .8rem;
+    }
+
+    .signup {
+        height: 30px;
+        width: 120px;
+        font-size: .8rem;
+    }
+}
