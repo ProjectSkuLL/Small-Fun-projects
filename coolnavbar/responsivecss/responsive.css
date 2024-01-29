@@ -3,7 +3,7 @@ body {
 }
 @media screen and (max-width:540px){
     body {
-        background: url('/bgimgs/tiraya-adam-FNRIC8aaF4o-unsplash.jpg')no-repeat;
+        background: url('./bgimgs/tiraya-adam-FNRIC8aaF4o-unsplash.jpg')no-repeat;
     }
     .navbar{
         width: 60%;
@@ -39,7 +39,7 @@ body {
         border: none;
         /* border: 1px solid white; */
         border-radius: 20px;
-        background: url('/588a64f5d06f6719692a2d13.png')center;
+        background: url('./588a64f5d06f6719692a2d13.png')center;
         filter: invert(100);
     }
     .click-me2 {
@@ -53,13 +53,13 @@ body {
         cursor: pointer;
         /* border: 1px solid white; */
         border-radius: 20px;
-        background: url('/kisspng-portable-network-graphics-scalable-vector-graphics-5ca6915503e1b0.7267464215544200530159.jpg')center;
+        background: url('./kisspng-portable-network-graphics-scalable-vector-graphics-5ca6915503e1b0.7267464215544200530159.jpg')center;
     }
 }
 
 @media screen and (min-width: 750px) {
     body {
-        background: url('/bgimgs/kent-tupas-WaUcTYPfiCU-unsplash.jpg')no-repeat;
+        background: url('./bgimgs/kent-tupas-WaUcTYPfiCU-unsplash.jpg')no-repeat;
     }
     .navbar{
         width: 45%;
@@ -91,7 +91,7 @@ body {
 
 @media screen and (min-width: 1000px) {
     body {
-        background: url('/bgimgs/kent-tupas-WaUcTYPfiCU-unsplash.jpg') no-repeat;
+        background: url('./bgimgs/kent-tupas-WaUcTYPfiCU-unsplash.jpg') no-repeat;
     }
     .navbar{
         width: 35%;
@@ -122,7 +122,7 @@ body {
 }
 @media screen and (min-width: 1300px) {
     body {
-        background: url('/bgimgs/kent-tupas-WaUcTYPfiCU-unsplash.jpg')no-repeat;
+        background: url('./bgimgs/kent-tupas-WaUcTYPfiCU-unsplash.jpg')no-repeat;
     }
     .navbar{
         width: 25%;
@@ -153,7 +153,7 @@ body {
 }
 @media screen and (min-width: 1600px) {
     body {
-        background: url('/bgimgs/annie-spratt-6egdNN_3k3I-unsplash.jpg')no-repeat;
+        background: url('./bgimgs/annie-spratt-6egdNN_3k3I-unsplash.jpg')no-repeat;
     }
     .navbar{
         width: 30%;
