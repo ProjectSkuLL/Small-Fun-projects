@@ -17,7 +17,7 @@ body{
     background-image: -moz-linear-gradient();
     background-image: -o-linear-gradient();
     background-image: -webkit-linear-gradient();
-    background: url('/bgimgs/annie-spratt-6egdNN_3k3I-unsplash.jpg')no-repeat;
+    background: url('./bgimgs/annie-spratt-6egdNN_3k3I-unsplash.jpg')no-repeat;
 }
 
 .navbar{
@@ -82,7 +82,7 @@ body{
     /* visibility: hidden; */
     /* border: 1px solid white; */
     border-radius: 20px;
-    background: url('/588a64f5d06f6719692a2d13.png')center;
+    background: url('./588a64f5d06f6719692a2d13.png')center;
 }
 .click-me2 {
     height: 30px;
@@ -94,5 +94,5 @@ body{
     /* visibility: hidden; */
     /* border: 1px solid white; */
     border-radius: 20px;
-    background: url('/kisspng-portable-network-graphics-scalable-vector-graphics-5ca6915503e1b0.7267464215544200530159.jpg')center;
+    background: url('./kisspng-portable-network-graphics-scalable-vector-graphics-5ca6915503e1b0.7267464215544200530159.jpg')center;
 }
